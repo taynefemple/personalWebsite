@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {
   Responsive,
@@ -6,9 +6,11 @@ import {
   Segment,
   Menu,
   Container,
+  Button
 } from "semantic-ui-react";
+import HomepageHeading from './Header';
 
-class DesktopContainer extends Component {
+export default class DesktopContainer extends Component {
 
   state = {}
 
@@ -43,8 +45,8 @@ class DesktopContainer extends Component {
                 <Menu.Item as='a' active>
                   Home
                 </Menu.Item>
-                <Menu.Item as='a'>Work</Menu.Item>
-                <Menu.Item as='a'>Company</Menu.Item>
+                <Menu.Item as='a'>Coding</Menu.Item>
+                <Menu.Item as='a'>Acting</Menu.Item>
                 <Menu.Item as='a'>Careers</Menu.Item>
                 <Menu.Item position='right'>
                   <Button as='a' inverted={!fixed}>

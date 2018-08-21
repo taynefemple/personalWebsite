@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import {
+  Button,
+  Container,
+  Icon,
+  Menu,
+  Responsive,
+  Segment,
+  Sidebar,
+} from 'semantic-ui-react'
+import HomepageHeading from './Header.jsx';
 
-class MobileContainer extends Component {
+
+export default class MobileContainer extends Component {
   state = {}
 
   handlePusherClick = () => {

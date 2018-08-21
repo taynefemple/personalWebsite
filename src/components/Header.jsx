@@ -8,7 +8,7 @@ const HomepageHeading = ({ mobile }) => (
   <Container text>
     <Header
       as='h1'
-      content='Imagine-a-Company'
+      content='Wayne Temple'
       inverted
       style={{
         fontSize: mobile ? '2em' : '4em',
@@ -19,12 +19,13 @@ const HomepageHeading = ({ mobile }) => (
     />
     <Header
       as='h2'
-      content='Do whatever you want when you want to.'
+      content='The real fucking deal...'
       inverted
       style={{
         fontSize: mobile ? '1.5em' : '1.7em',
         fontWeight: 'normal',
         marginTop: mobile ? '0.5em' : '1.5em',
+        marginBottom: mobile ? '0.5em' : '1.5em',
       }}
     />
     <Button primary size='huge'>
